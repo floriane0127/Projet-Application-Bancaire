@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence 
+http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+
+    <persistence-unit name="Projet_Banque">
+    	<class>com.entity.Virement</class>
+    	<class>com.entity.Message</class>
+    	<class>com.entity.CptBancaire</class>
+    	<class>com.entity.Client</class>
+    	<class>com.entity.Banquier</class>
+    	<class>com.entity.UtilisateursCompte</class>
+    </persistence-unit>
+</persistence>
